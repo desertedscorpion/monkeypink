@@ -1,6 +1,6 @@
 # Run Chrome in a container
 #
-# docker run -it --net host --cpuset-cpus 0 --memory 512mb -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -v $HOME/Downloads:/root/Downloads -v $HOME/.config/google-chrome/:/data --device /dev/snd -v /dev/shm:/dev/shm --name chrome jess/chrome
+# docker run -it --net host --cpuset-cpus 0 --memory 512mb -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -v $HOME/Downloads:/root/Downloads -v $HOME/.config/google-chrome/:/data --device /dev/snd -v /dev/shm:/dev/shm --name chrome taf7lwappqystqp4u7wjsqkdc7dquw/monkeypink
 #
 
 # Base docker image
